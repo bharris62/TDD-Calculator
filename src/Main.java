@@ -5,7 +5,6 @@ public class Main {
     public static void main(String[] args) {
         Computations computations = new Computations();
         promptLetter();
-
     }
 
     public static int doComputation(String letter, int i, int j){
@@ -39,4 +38,5 @@ public class Main {
         int num2 = Integer.parseInt(scanner.nextLine());
         System.out.println("result: " + doComputation(userInput, num1, num2));
     }
+
 }
